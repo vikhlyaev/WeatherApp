@@ -40,8 +40,8 @@
 		0A368B882827A6900055DE56 = {
 			isa = PBXGroup;
 			children = (
-				0A368B932827A6900055DE56 /* WeatherApp */,
 				0A368B922827A6900055DE56 /* Products */,
+				0A368B932827A6900055DE56 /* WeatherApp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +56,39 @@
 		0A368B932827A6900055DE56 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A368BAA2827A7510055DE56 /* Model */,
+				0A368BA82827A7370055DE56 /* View */,
+				0A368BA92827A7400055DE56 /* Controller */,
 				0A368B942827A6900055DE56 /* AppDelegate.swift */,
 				0A368B962827A6900055DE56 /* SceneDelegate.swift */,
-				0A368B982827A6900055DE56 /* ViewController.swift */,
-				0A368B9A2827A6900055DE56 /* Main.storyboard */,
 				0A368B9D2827A6920055DE56 /* Assets.xcassets */,
-				0A368B9F2827A6920055DE56 /* LaunchScreen.storyboard */,
 				0A368BA22827A6920055DE56 /* Info.plist */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		0A368BA82827A7370055DE56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A368B9F2827A6920055DE56 /* LaunchScreen.storyboard */,
+				0A368B9A2827A6900055DE56 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A368BA92827A7400055DE56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A368B982827A6900055DE56 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A368BAA2827A7510055DE56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +314,7 @@
 				DEVELOPMENT_TEAM = VEWJJ8ZGBW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Clima;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.vikhlyaev.WeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vikhlyaev.Clima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,6 +344,7 @@
 				DEVELOPMENT_TEAM = VEWJJ8ZGBW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Clima;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +356,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.vikhlyaev.WeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vikhlyaev.Clima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
